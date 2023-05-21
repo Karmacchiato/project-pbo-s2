@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CB3Controller">
+   <children>
+      <Button layoutX="14.0" layoutY="363.0" mnemonicParsing="false" onAction="#switchToScene1" text="Back">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="234.0" layoutY="14.0" text="Celana">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="sizeChoiceBox1" layoutX="18.0" layoutY="106.0" prefWidth="150.0" />
+      <Label fx:id="sizeLabel1" layoutX="17.0" layoutY="80.0" text="Pilih Size yang diinginkan">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="530.0" layoutY="363.0" mnemonicParsing="false" onAction="#switchToScene6" text="Finish">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <ChoiceBox fx:id="bahanChoiceBox1" layoutX="18.0" layoutY="159.0" prefWidth="150.0" />
+      <Label fx:id="bahanLabel1" layoutX="20.0" layoutY="132.0" text="Pilih Bahan yang diinginkan">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="warnaChoiceBox1" layoutX="18.0" layoutY="213.0" prefWidth="150.0" />
+      <Label fx:id="warnaLabel1" layoutX="20.0" layoutY="186.0" text="Pilih Warna pengiriman">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="eksLabel1" layoutX="20.0" layoutY="239.0" text="Pilih Ekspedisi pengiriman">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="eksChoiceBox1" layoutX="18.0" layoutY="266.0" prefWidth="150.0" />
+      <Label fx:id="pulauLabel1" layoutX="18.0" layoutY="292.0" text="Pulau tujuan pengiriman">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="pulauChoiceBox1" layoutX="18.0" layoutY="319.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

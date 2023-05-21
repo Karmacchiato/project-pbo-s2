@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneController">
+   <children>
+      <ImageView fitHeight="136.0" fitWidth="168.0" layoutX="418.0" layoutY="92.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@sepatu.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="159.0" fitWidth="143.0" layoutX="37.0" layoutY="92.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@baju.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="162.0" fitWidth="106.0" layoutX="247.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@celana.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="40.0" layoutY="277.0" mnemonicParsing="false" onAction="#switchToScene2" prefWidth="143.0" text="Baju">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Button>
+      <Label layoutX="216.0" layoutY="14.0" text="BUMIPEDIA">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Button layoutX="415.0" layoutY="277.0" mnemonicParsing="false" onAction="#switchToScene4" text="Sepatu">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Button>
+      <Button layoutX="218.0" layoutY="277.0" mnemonicParsing="false" onAction="#switchToScene3" text="Celana">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

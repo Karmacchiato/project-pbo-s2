@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="705.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Scene7Controller">
+   <children>
+      <Label fx:id="sizeLabel2" layoutX="341.0" layoutY="103.0" prefHeight="36.0" prefWidth="347.0" text="Label">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="seriLabel2" layoutX="341.0" layoutY="154.0" text="Label">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="warnaLabel2" layoutX="341.0" layoutY="200.0" text="Label">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="eksLabel2" layoutX="341.0" layoutY="246.0" text="Label">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="284.0" layoutY="14.0" text="INVOICE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="104.0" text="Size sepatu yang anda pilih">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="200.0" text="Warna sepatu yang anda pilih">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="246.0" text="Ekspedisi pengiriman">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalHargaLabel2" layoutX="35.0" layoutY="351.0" text="Label">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="154.0" text="Seri sepatu yang anda pilih">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutY="68.0" prefHeight="18.0" prefWidth="714.0" text="======================================================================================" />
+      <Label layoutY="320.0" prefHeight="18.0" prefWidth="714.0" text="======================================================================================" />
+      <Label fx:id="pulauLabel2" layoutX="341.0" layoutY="285.0" text="Label">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="285.0" text="Pulau tujuan pengiriman">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Button layoutX="562.0" layoutY="361.0" mnemonicParsing="false" onAction="#switchToScene4" text="Beli Lagi" />
+      <Button layoutX="626.0" layoutY="361.0" mnemonicParsing="false" onAction="#switchToScene1" text="HomePage" />
+   </children>
+</AnchorPane>
